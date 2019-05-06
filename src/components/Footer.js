@@ -1,0 +1,22 @@
+import React, { Component } from 'react';
+import {Container, Row, Col} from 'react-bootstrap';
+
+class Footer extends Component {
+  render() {
+    return (
+      <div className="Footer">
+      
+<Container>
+
+  <Row>
+    <Col>1 of 3</Col>
+    <Col>2 of 3</Col>
+    <Col>3 of 3</Col>
+  </Row>
+</Container>
+
+      </div>
+    );
+  }
+}
+export default Footer;
