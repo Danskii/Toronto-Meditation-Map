@@ -13,9 +13,12 @@ class Main extends Component {
           <div className="circle small shade5" />
         </div>
         <Jumbotron className="homepageWelcome" > 
-  <h1>Hello and welcome</h1>
-  <p>
-    These are my favourite locations to meditate in Toronto. The map below has each location charted out and includes photos of the spot.
+  <h1 className="text-focus-in-first">Hello and welcome</h1>
+  <p className="homepageSubHeading text-focus-in-second">
+    These are my favourite locations to meditate in Toronto. 
+  </p>
+  <p className="homepageSubHeading text-focus-in-third">
+    I hope you enjoy discovering them for yourself. 
   </p>
 </Jumbotron>
 

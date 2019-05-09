@@ -13,7 +13,7 @@ const Map = compose(
     googleMapURL:
       "https://maps.googleapis.com/maps/api/js?key=AIzaSyC80_y_wRg1tKAM59tSszeIiY6tEahwUmc",
     loadingElement: <div style={{ height: `100%` }} />,
-    containerElement: <div style={{ height: `60vh`,  width: `100vw` }} />,
+    containerElement: <div className="mapWrapper text-focus-in-third" style={{ height: `75vh`}} />,
     mapElement: <div style={{ height: `100%` }} />
   }),
   withScriptjs,
