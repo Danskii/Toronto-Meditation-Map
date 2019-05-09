@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Jumbotron } from "react-bootstrap";
 
 class Main extends Component {
   render() {
@@ -12,14 +12,13 @@ class Main extends Component {
           <div className="circle mediun shade4" />
           <div className="circle small shade5" />
         </div>
+        <Jumbotron className="homepageWelcome" > 
+  <h1>Hello and welcome</h1>
+  <p>
+    These are my favourite locations to meditate in Toronto. The map below has each location charted out and includes photos of the spot.
+  </p>
+</Jumbotron>
 
-        <Container>
-          <Row>
-            <Col>1 of 3</Col>
-            <Col>2 of 3</Col>
-            <Col>3 of 3</Col>
-          </Row>
-        </Container>
       </div>
     );
   }

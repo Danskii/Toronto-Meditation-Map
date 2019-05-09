@@ -10,13 +10,9 @@ class App extends Component {
     return (
       <div className="App">
         <Main />
-        <Container>
-          <Row>
-            <Col>
+
               <Map />
-            </Col>
-          </Row>
-        </Container>
+
 
         <Footer />
       </div>

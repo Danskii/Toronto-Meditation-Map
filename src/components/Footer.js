@@ -1,21 +1,20 @@
-import React, { Component } from 'react';
-import {Container, Row, Col} from 'react-bootstrap';
+import React, { Component } from "react";
+import { Container, Row, Col } from "react-bootstrap";
 class Footer extends Component {
   render() {
     return (
       <div className="Footer">
-      
-<Container>
-
-  <Row>
-    <Col>1 of 3</Col>
-    <Col>2 of 3</Col>
-    <Col>3 of 3</Col>
-  </Row>
-</Container>
-
+<p class="footerText">Designed and built with all the love in the world by <a href="https://twitter.com/dpuiatti" target="_blank">dpuiatti</a>. Maintained with your help.</p>
+        <Container>
+          <Row>
+            <Col><a href="https://danskii.github.io/Daniel-Puiatti/" target="_blank">Who am I?</a></Col>
+            <Col><a href="mailto:dpuiatti@gmail.com" target="_blank">Contact Me</a></Col>
+            <Col><a href="https://github.com/Danskii" target="_blank">GitHub</a></Col>
+          </Row>
+        </Container>
       </div>
     );
   }
 }
 export default Footer;
+
