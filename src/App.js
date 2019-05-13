@@ -10,10 +10,7 @@ class App extends Component {
     return (
       <div className="App">
         <Main />
-
-              <Map />
-
-
+        <Map />
         <Footer />
       </div>
     );
