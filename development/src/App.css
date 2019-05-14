@@ -1,5 +1,5 @@
 body {
-  background-image: url("//www.toptal.com/designers/subtlepatterns/patterns/symphony.png");
+  background-image: url("./components/images/symphony.png");
   background-position: bottom;
   animation: 10s linear 0s infinite bp;
   display: flex;
@@ -91,8 +91,8 @@ ANIMATIONS
 
 
 .text-focus-in-fifth {
-	-webkit-animation: text-focus-in 16s cubic-bezier(0.550, 0.085, 0.680, 0.530) ;
-	        animation: text-focus-in 16s cubic-bezier(0.550, 0.085, 0.680, 0.530) ;
+	-webkit-animation: text-focus-in 13s cubic-bezier(0.550, 0.085, 0.680, 0.530) ;
+	        animation: text-focus-in 13s cubic-bezier(0.550, 0.085, 0.680, 0.530) ;
 }
 
 .slide-out-top {
