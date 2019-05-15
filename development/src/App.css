@@ -91,8 +91,8 @@ ANIMATIONS
 
 
 .text-focus-in-fifth {
-	-webkit-animation: text-focus-in 12s cubic-bezier(0.550, 0.085, 0.680, 0.530) ;
-	        animation: text-focus-in 12s cubic-bezier(0.550, 0.085, 0.680, 0.530) ;
+	-webkit-animation: text-focus-in 16s cubic-bezier(0.550, 0.085, 0.680, 0.530) ;
+	        animation: text-focus-in 16s cubic-bezier(0.550, 0.085, 0.680, 0.530) ;
 }
 
 .slide-out-top {
