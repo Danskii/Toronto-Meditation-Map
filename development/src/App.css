@@ -9,11 +9,11 @@ body {
 
 @keyframes bp {
   from {
-    background-position:  198px 0;
+    background-position: 198px 0;
   }
-  
+
   to {
-    background-position:  0 198px;
+    background-position: 0 198px;
   }
 }
 
@@ -48,56 +48,70 @@ h1 {
   line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
 }
 
+.footerTextShare {
+  text-align: center;
+  padding: 1.5rem 2rem 0 2rem;
+  font-size: calc(14px + (20 - 14) * ((100vw - 300px) / (1600 - 300)));
+  line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
+}
+
 .footerButtonsWrapper {
   font-size: calc(14px + (20 - 14) * ((100vw - 300px) / (1600 - 300)));
   line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
-  text-align: center; 
-  padding:0 2 1.5 2 rem;
+  text-align: center;
+  padding: 0 2 1.5 2 rem;
 }
 
 .footerButtonsWrapper .col {
   margin: 1rem;
 }
 
-.footerButtonsWrapper .col a{
+.footerButtonsWrapper .col a {
   font-size: calc(14px + (20 - 14) * ((100vw - 300px) / (1600 - 300)));
- 
+
 }
 
+.socialIconWrapper {
+  margin: .5rem !important;
+}
+
+.socialIcon {
+width: 45px;
+}
 
 /* ----------------------------------------------
 ANIMATIONS
  * ---------------------------------------------- */
 
 .text-focus-in-first {
-	-webkit-animation: text-focus-in 3.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) ;
-	        animation: text-focus-in 3.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) ;
+  -webkit-animation: text-focus-in 3.5s cubic-bezier(0.550, 0.085, 0.680, 0.530);
+  animation: text-focus-in 3.5s cubic-bezier(0.550, 0.085, 0.680, 0.530);
 }
 
 .text-focus-in-second {
-	-webkit-animation: text-focus-in 4s cubic-bezier(0.550, 0.085, 0.680, 0.530) ;
-	        animation: text-focus-in 4s cubic-bezier(0.550, 0.085, 0.680, 0.530);
+  -webkit-animation: text-focus-in 4s cubic-bezier(0.550, 0.085, 0.680, 0.530);
+  animation: text-focus-in 4s cubic-bezier(0.550, 0.085, 0.680, 0.530);
 }
 
 .text-focus-in-third {
-	-webkit-animation: text-focus-in 6s cubic-bezier(0.550, 0.085, 0.680, 0.530) ;
-	        animation: text-focus-in 6s cubic-bezier(0.550, 0.085, 0.680, 0.530) ;
+  -webkit-animation: text-focus-in 6s cubic-bezier(0.550, 0.085, 0.680, 0.530);
+  animation: text-focus-in 6s cubic-bezier(0.550, 0.085, 0.680, 0.530);
 }
 
 .text-focus-in-fourth {
-	-webkit-animation: text-focus-in 9s cubic-bezier(0.550, 0.085, 0.680, 0.530) ;
-	        animation: text-focus-in 9s cubic-bezier(0.550, 0.085, 0.680, 0.530) ;
+  -webkit-animation: text-focus-in 9s cubic-bezier(0.550, 0.085, 0.680, 0.530);
+  animation: text-focus-in 9s cubic-bezier(0.550, 0.085, 0.680, 0.530);
 }
 
 
 .text-focus-in-fifth {
-	-webkit-animation: text-focus-in 16s cubic-bezier(0.550, 0.085, 0.680, 0.530) ;
-	        animation: text-focus-in 16s cubic-bezier(0.550, 0.085, 0.680, 0.530) ;
+  -webkit-animation: text-focus-in 16s cubic-bezier(0.550, 0.085, 0.680, 0.530);
+  animation: text-focus-in 16s cubic-bezier(0.550, 0.085, 0.680, 0.530);
 }
 
 .slide-out-top {
-	-webkit-animation: slide-out-top 2.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) 10s forwards;
-	        animation: slide-out-top 2.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) 10s forwards;
+  -webkit-animation: slide-out-top 2.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) 10s forwards;
+  animation: slide-out-top 2.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) 10s forwards;
 }
 
 
@@ -112,28 +126,31 @@ ANIMATIONS
  * animation text-focus-in
  * ----------------------------------------
  */
- @-webkit-keyframes text-focus-in {
+@-webkit-keyframes text-focus-in {
   0% {
     -webkit-filter: blur(12px);
-            filter: blur(12px);
+    filter: blur(12px);
     opacity: 0;
 
   }
+
   100% {
     -webkit-filter: blur(0px);
-            filter: blur(0px);
+    filter: blur(0px);
     opacity: 1;
   }
 }
+
 @keyframes text-focus-in {
   0% {
     -webkit-filter: blur(12px);
-            filter: blur(12px);
+    filter: blur(12px);
     opacity: 0;
   }
+
   100% {
     -webkit-filter: blur(0px);
-            filter: blur(0px);
+    filter: blur(0px);
     opacity: 1;
   }
 }
@@ -148,28 +165,31 @@ ANIMATIONS
  * animation slide-out-top
  * ----------------------------------------
  */
- @-webkit-keyframes slide-out-top {
+@-webkit-keyframes slide-out-top {
   0% {
     -webkit-transform: translateY(0);
-            transform: translateY(0);
+    transform: translateY(0);
     opacity: 1;
   }
+
   100% {
     -webkit-transform: translateY(-1000px);
-            transform: translateY(-1000px);
+    transform: translateY(-1000px);
     opacity: 0;
     height: 0;
   }
 }
+
 @keyframes slide-out-top {
   0% {
     -webkit-transform: translateY(0);
-            transform: translateY(0);
+    transform: translateY(0);
     opacity: 1;
   }
+
   100% {
     -webkit-transform: translateY(-1000px);
-            transform: translateY(-1000px);
+    transform: translateY(-1000px);
     opacity: 0;
     height: 0;
   }
