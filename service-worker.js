@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Toronto-Meditation-Map/precache-manifest.580e4f4841b65f8dfdb4c5fc14135bd9.js"
+  "/Toronto-Meditation-Map/precache-manifest.777c04dfe517112a30318e38aa333f7d.js"
 );
 
 self.addEventListener('message', (event) => {

@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "81b998deca58a137a706a58920aeb3ab",
+    "revision": "2252146cd32ef6d272ab8e8425abfb20",
     "url": "/Toronto-Meditation-Map/index.html"
   },
   {
